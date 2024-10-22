@@ -1,5 +1,5 @@
 {% set name = "merge-stardist-masks" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/merge_stardist_masks-{{ version }}.tar.gz
-  sha256: fe65e80a49e002a25e6e1b962813ac6909a652b49025c1fcda69136019a9d0e3
+  sha256: 024c78a8057dd23389e3e5099c0e51dad3ba2131086e9d1d34b53f0cf5188ed2
 
 build:
   noarch: python
